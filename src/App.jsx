@@ -58,7 +58,7 @@ function App() {
       <section className="w-full h-[100vh] ">
         <div className=" grid grid-cols-1  md:grid-cols-3    ">
           <div className="left  h-[300px] md:h-[100vh] flex relative justify-end ">
-            <div className="card1 absolute right-32 md:top-32 md:-right-16 lg:top-32 lg:-right-16 -bottom-12 z-10 p-4  " >
+            <div className="card1 absolute right-32  md:-right-16 md:top-20 lg:top-20 lg:-right-16 -bottom-12 z-10 p-4  " >
 
 <svg width="84" height="47" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="23.478" cy="23.5" rx="23.478" ry="23.5" fill="#fff"/><path d="M83.5 23.5c0 5.565-4.507 10.075-10.065 10.075-5.559 0-10.065-4.51-10.065-10.075 0-5.565 4.506-10.075 10.065-10.075 5.558 0 10.065 4.51 10.065 10.075Z" stroke="#fff"/></svg>
              <div className="mt-8 lg:mt-16">
@@ -72,7 +72,7 @@ function App() {
             
              {/* crd-2 deatais */}
             </div >
-            <div className="card2 relative mt-10 mr-5 md:absolute md:bottom-44 md:-right-36 lg:absolute lg:bottom-44  lg:-right-36 ">
+            <div className="card2 relative mt-10 mr-5 md:absolute md:bottom-36 md:-right-36 lg:absolute lg:bottom-36  lg:-right-36 ">
               <p className=" absolute right-10 text-xl text-white top-[77px] md:top-[100px] md:right-5  lg:text-2xl lg:top-[100px] py-1.5">{formdata.CVV}</p>
             </div>
           </div>

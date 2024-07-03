@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+.card1{
+  background-color: blueviolet;
+  width: 320px;
+  height: 200px;
+  border-radius: 20px;
+  background-image: url("../src/assets/bg-card-front.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  
+}
+.card2{
+  background-color: blueviolet;
+  width: 320px;
+  height: 200px;
+  border-radius: 20px;
+  background-image: url("../src/assets/bg-card-back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  
+}
+.form-data{
+  margin: 0px auto;
+}
+
+.left{
+  background:url("../src/assets/bg-main-desktop.png") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+@media (min-width: 768px){
+  .card1,.card2{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+ 
+  }
+}
+
